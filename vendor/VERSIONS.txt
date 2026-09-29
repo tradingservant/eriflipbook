@@ -1,0 +1,11 @@
+pdfjs-dist 4.10.38
+  License: Apache-2.0 (vendor/pdfjs/LICENSE)
+  Files pdf.min.js and pdf.worker.min.js are the upstream pdf.min.mjs and
+  pdf.worker.min.mjs builds, renamed to .js so GitHub Pages serves them as
+  JavaScript. No code changes.
+  cmaps/ and standard_fonts/ are the matching upstream data files.
+  standard_fonts also includes LICENSE_FOXIT and LICENSE_LIBERATION.
+
+page-flip 2.0.7 (StPageFlip)
+  License: MIT (vendor/page-flip/LICENSE)
+  Browser build with the small patches described in vendor/page-flip/PATCHES.md.
